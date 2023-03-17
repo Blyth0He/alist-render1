@@ -11,22 +11,22 @@ services:
       - key: PORT
         value: 5244
       - key: DB_TYPE
-        # value: sqlite3
+        value: mysql
         sync: false
       - key: DB_HOST
-        # value: db_host
+        value: sql9.freesqldatabase.com
         sync: false
       - key: DB_PORT
-        # value: 3306
+        value: 3306
         sync: false
       - key: DB_USER
-        # value: db_user
+        value: sql9606608
         sync: false
       - key: DB_PASS
-        # value: db_password
+        value: QrNTSjYDk4
         sync: false
       - key: DB_NAME
-        # value: db_name
+        value: sql9606608
         sync: false
       - key: DB_TABLE_PREFIX
         # value: alist_
