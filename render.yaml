@@ -10,22 +10,22 @@ services:
     envVars:
       - key: PORT
         value: 5244
-      - key: DB_TYPE
+      - key: ALIST_DB_TYPE
         value: mysql
         sync: false
-      - key: DB_HOST
+      - key: ALIST_DB_HOST
         value: sql9.freesqldatabase.com
         sync: false
-      - key: DB_PORT
+      - key: ALIST_DB_PORT
         value: 3306
         sync: false
-      - key: DB_USER
+      - key: ALIST_DB_USER
         value: sql9606608
         sync: false
-      - key: DB_PASS
+      - key: ALIST_DB_PASS
         value: QrNTSjYDk4
         sync: false
-      - key: DB_NAME
+      - key: ALIST_DB_NAME
         value: sql9606608
         sync: false
       - key: DB_TABLE_PREFIX
